@@ -282,165 +282,81 @@
       <!-- CONTEÚDO PRINCIPAL -->
       <div class="main-content">
 
-        <div class="left-section">
-          <div class="video-player">
-            <iframe src="https://www.youtube.com/embed/LCDaw0QmQQc?si=Xi4Mb_A4Dq2gp0Ux" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-player">
+          <iframe src="https://www.youtube.com/embed/LCDaw0QmQQc?si=Xi4Mb_A4Dq2gp0Ux" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          </div>
+        </div>
 
-          <div class="video-info">
-            <h3>Kasino no Sabadaço - 07/10/2006</h3>
-            <div class="info-section">
+        <div class="video-info">
+          <h3>Kasino no Sabadaço - 07/10/2006</h3>
+          <div class="info-section">
+            <div class="channel-info-subscribe">
               <img src="assets/images/channels4_profile.jpg" alt="Imagem de perfil" class="info-image">
               <div class="channel-info">
                 <p class="channel-name">Teleguiado</p>
                 <p class="channel-subscribers">33,9 mil inscritos</p>
               </div>
               <button class="subscribe-btn">Inscrever-se</button>
+            </div>
 
-              <div class="action-buttons">
-                <!-- LIKE -->
-                <button class="action-btn like-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+            <div class="action-buttons">
+              <!-- LIKE -->
+              <button class="action-btn like-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                  viewBox="0 -960 960 960" width="24px" fill="#666666">
+                  <path
+                    d="M720-120H280v-520l280-280 50 50q7 7 11.5 19t4.5 23v14l-44 174h258q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14Zm-360-80h360l120-280v-80H480l54-220-174 174v406Zm0-406v406-406Zm-80-34v80H160v360h120v80H80v-520h200Z" />
+                </svg> 1,2 mil</button>
+              <!-- DESLIKE -->
+              <button class="action-btn deslike-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                  viewBox="0 -960 960 960" width="24px" fill="#666666">
+                  <path
+                    d="M240-840h440v520L400-40l-50-50q-7-7-11.5-19t-4.5-23v-14l44-174H120q-32 0-56-24t-24-56v-80q0-7 2-15t4-15l120-282q9-20 30-34t44-14Zm360 80H240L120-480v80h360l-54 220 174-174v-406Zm0 406v-406 406Zm80 34v-80h120v-360H680v-80h200v520H680Z" />
+                </svg></button>
+              <!-- COMPARTILHAR -->
+              <div class="end-actions">
+                <button class="action-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
                     viewBox="0 -960 960 960" width="24px" fill="#666666">
                     <path
-                      d="M720-120H280v-520l280-280 50 50q7 7 11.5 19t4.5 23v14l-44 174h258q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14Zm-360-80h360l120-280v-80H480l54-220-174 174v406Zm0-406v406-406Zm-80-34v80H160v360h120v80H80v-520h200Z" />
-                  </svg> 1,2 mil</button>
-                <!-- DESLIKE -->
-                <button class="action-btn deslike-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                      d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
+                  </svg>Compartilhar</button>
+                <!-- CLIPE -->
+                <button class="action-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
                     viewBox="0 -960 960 960" width="24px" fill="#666666">
                     <path
-                      d="M240-840h440v520L400-40l-50-50q-7-7-11.5-19t-4.5-23v-14l44-174H120q-32 0-56-24t-24-56v-80q0-7 2-15t4-15l120-282q9-20 30-34t44-14Zm360 80H240L120-480v80h360l-54 220 174-174v-406Zm0 406v-406 406Zm80 34v-80h120v-360H680v-80h200v520H680Z" />
+                      d="M760-120 480-400l-94 94q8 15 11 32t3 34q0 66-47 113T240-80q-66 0-113-47T80-240q0-66 47-113t113-47q17 0 34 3t32 11l94-94-94-94q-15 8-32 11t-34 3q-66 0-113-47T80-720q0-66 47-113t113-47q66 0 113 47t47 113q0 17-3 34t-11 32l494 494v40H760ZM600-520l-80-80 240-240h120v40L600-520ZM240-640q33 0 56.5-23.5T320-720q0-33-23.5-56.5T240-800q-33 0-56.5 23.5T160-720q0 33 23.5 56.5T240-640Zm240 180q8 0 14-6t6-14q0-8-6-14t-14-6q-8 0-14 6t-6 14q0 8 6 14t14 6ZM240-160q33 0 56.5-23.5T320-240q0-33-23.5-56.5T240-320q-33 0-56.5 23.5T160-240q0 33 23.5 56.5T240-160Z" />
+                  </svg> Clipe</button>
+                <!-- MAIS -->
+                <button class="action-btn more-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
+                    fill="#666666">
+                    <path
+                      d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
                   </svg></button>
-                <!-- COMPARTILHAR -->
-                <div class="end-actions">
-                  <button class="action-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                      viewBox="0 -960 960 960" width="24px" fill="#666666">
-                      <path
-                        d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z" />
-                    </svg>Compartilhar</button>
-                  <!-- CLIPE -->
-                  <button class="action-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                      viewBox="0 -960 960 960" width="24px" fill="#666666">
-                      <path
-                        d="M760-120 480-400l-94 94q8 15 11 32t3 34q0 66-47 113T240-80q-66 0-113-47T80-240q0-66 47-113t113-47q17 0 34 3t32 11l94-94-94-94q-15 8-32 11t-34 3q-66 0-113-47T80-720q0-66 47-113t113-47q66 0 113 47t47 113q0 17-3 34t-11 32l494 494v40H760ZM600-520l-80-80 240-240h120v40L600-520ZM240-640q33 0 56.5-23.5T320-720q0-33-23.5-56.5T240-800q-33 0-56.5 23.5T160-720q0 33 23.5 56.5T240-640Zm240 180q8 0 14-6t6-14q0-8-6-14t-14-6q-8 0-14 6t-6 14q0 8 6 14t14 6ZM240-160q33 0 56.5-23.5T320-240q0-33-23.5-56.5T240-320q-33 0-56.5 23.5T160-240q0 33 23.5 56.5T240-160Z" />
-                    </svg> Clipe</button>
-                  <!-- MAIS -->
-                  <button class="action-btn more-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"
-                      fill="#666666">
-                      <path
-                        d="M240-400q-33 0-56.5-23.5T160-480q0-33 23.5-56.5T240-560q33 0 56.5 23.5T320-480q0 33-23.5 56.5T240-400Zm240 0q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm240 0q-33 0-56.5-23.5T640-480q0-33 23.5-56.5T720-560q33 0 56.5 23.5T800-480q0 33-23.5 56.5T720-400Z" />
-                    </svg></button>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="video-description">
-            <p class="views-time">3,7 mi de visualizações há 11 anos</p>
-             <p class="description-link">
-               http://www.teleguiado.tv 
-              <button class="see-more">...mais</button>
-            </p>
-            <button class="see-less">mostrar menos</button>
-          </div>
-          
-
-          <div class="comments-section">
-            <div class="comments-header">
-              <h3>10.265 comentários</h3>
-              <div class="order-box">
-                <span class="material-symbols-outlined">
-                  sort
-                </span>
-                <p class="order-button">Ordenar Por</p>
               </div>
 
             </div>
-            <div class="comment-box">
-              <img src="assets/images/cat-user.jpg" alt="Imagem do Usuário" class="user-image">
-
-              <div class="comment-options">
-                <textarea placeholder="Adicione um comentário..."></textarea>
-
-                <div class="actions">
-                  <div class="emojis">
-                    <span class="material-symbols-outlined">sentiment_very_satisfied</span>
-                  </div>
-
-                  <div class="comment-buttons">
-                    <button class="cancel-btn">Cancelar</button>
-                    <button class="comment-btn">Comentar</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            <!-- COMENTÁRIOS DOS USUÁRIOS -->
-
-            <div class="user-comments">
-              <!-- IMAGEM DO USUÁRIO -->
-              <div class="comment-image">
-                <img src="assets/images/comment-profile.jpg" alt="Foto de perfil">
-              </div>
-              <!-- COMENTÁRIOS E INFORMAÇÕES DO COMENTÁRIO -->
-              <div class="comment-details">
-                <div class="comment-info">
-                  <p class="comment-name">@djstefanomix</p>
-                  <p class="comment-date">há 1 ano</p>
-                </div>
-
-                <div class="user-comment">
-                  <p>Por favor toda vez que alguém estiver ouvindo essa música, curta esse comentário, só pra eu poder
-                    voltar e apreciar esse HINO de novo 🗿🍷</p>
-                </div>
-                <div class="rating-reply">
-                  <div class="likes-number">
-                    <button class="action-btn comment-like"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                        viewBox="0 -960 960 960" width="24px" fill="#666666">
-                        <path
-                          d="M720-120H280v-520l280-280 50 50q7 7 11.5 19t4.5 23v14l-44 174h258q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14Zm-360-80h360l120-280v-80H480l54-220-174 174v406Zm0-406v406-406Zm-80-34v80H160v360h120v80H80v-520h200Z" />
-                      </svg></button>
-                    <p class="likes-value">10 mil</p>
-                  </div>
-
-
-                  <button class="action-btn comment-deslike"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
-                      viewBox="0 -960 960 960" width="24px" fill="#666666">
-                      <path
-                        d="M240-840h440v520L400-40l-50-50q-7-7-11.5-19t-4.5-23v-14l44-174H120q-32 0-56-24t-24-56v-80q0-7 2-15t4-15l120-282q9-20 30-34t44-14Zm360 80H240L120-480v80h360l-54 220 174-174v-406Zm0 406v-406 406Zm80 34v-80h120v-360H680v-80h200v520H680Z" />
-                    </svg></button>
-
-                  <button class="reply">Responder</button>
-                </div>
-              </div>
-
-              <!-- TRÊS PONTOS -->
-              <div class="report">
-                <button><span class="material-symbols-outlined">
-                    more_vert
-                  </span></button>
-              </div>
-
-            </div>
-
-
-
           </div>
         </div>
 
-        <!-- SEÇÃO DA DIREITA -->
+        <div class="video-description">
+          <p class="views-time">3,7 mi de visualizações há 11 anos</p>
+          <p class="description-link">
+            http://www.teleguiado.tv
+            <button class="see-more">...mais</button>
+          </p>
+          <button class="see-less">mostrar menos</button>
+        </div>
+
+        <!-- SEÇÃO DA DIREITA / VIDEOS RELACIONADOS -->
         <div class="right-section">
           <div class="content-wrapper">
             <div class="category-carousel-container" style="position: relative;">
-              
+
               <button class="category-nav-button prev-button" id="prevBtn">
                 <span class="material-symbols-outlined">
-                chevron_left
+                  chevron_left
                 </span>
               </button>
               <div class="category-list" id="categoryList">
@@ -455,12 +371,12 @@
               </div>
               <button class="category-nav-button next-button" id="nextBtn">
                 <span class="material-symbols-outlined">
-                chevron_right
+                  chevron_right
                 </span>
               </button>
             </div>
           </div>
-          
+
           <div class="related-video">
             <div class="thumbnail-container">
               <img src="assets/images/chapelle.webp" alt="Video Thumbnail" class="thumbnail-img">
@@ -477,10 +393,11 @@
               <div class="video-meta">91 mi visualizações • há 1 ano</div>
             </div>
           </div>
-          
+
           <div class="related-video">
             <div class="thumbnail-container">
-              <img src="assets/images/hqdefault.avif" alt="Green Alien Singing I'm Still Standing" class="thumbnail-img">
+              <img src="assets/images/hqdefault.avif" alt="Green Alien Singing I'm Still Standing"
+                class="thumbnail-img">
               <span class="timestamp">3:20</span>
             </div>
             <div class="related-info">
@@ -604,7 +521,95 @@
           </div>
 
         </div>
+
+        <div class="comments-section">
+          <div class="comments-header">
+            <h3>10.265 comentários</h3>
+            <div class="order-box">
+              <span class="material-symbols-outlined">
+                sort
+              </span>
+              <p class="order-button">Ordenar Por</p>
+            </div>
+
+          </div>
+          <div class="comment-box">
+            <img src="assets/images/cat-user.jpg" alt="Imagem do Usuário" class="user-image">
+
+            <div class="comment-options">
+              <textarea placeholder="Adicione um comentário..."></textarea>
+
+              <div class="actions">
+                <div class="emojis">
+                  <span class="material-symbols-outlined">sentiment_very_satisfied</span>
+                </div>
+
+                <div class="comment-buttons">
+                  <button class="cancel-btn">Cancelar</button>
+                  <button class="comment-btn">Comentar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- COMENTÁRIOS DOS USUÁRIOS -->
+
+          <div class="user-comments">
+            <!-- IMAGEM DO USUÁRIO -->
+            <div class="comment-image">
+              <img src="assets/images/comment-profile.jpg" alt="Foto de perfil">
+            </div>
+            <!-- COMENTÁRIOS E INFORMAÇÕES DO COMENTÁRIO -->
+            <div class="comment-details">
+              <div class="comment-info">
+                <p class="comment-name">@djstefanomix</p>
+                <p class="comment-date">há 1 ano</p>
+              </div>
+
+              <div class="user-comment">
+                <p>Por favor toda vez que alguém estiver ouvindo essa música, curta esse comentário, só pra eu poder
+                  voltar e apreciar esse HINO de novo 🗿🍷</p>
+              </div>
+              <div class="rating-reply">
+                <div class="likes-number">
+                  <button class="action-btn comment-like"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                      viewBox="0 -960 960 960" width="24px" fill="#666666">
+                      <path
+                        d="M720-120H280v-520l280-280 50 50q7 7 11.5 19t4.5 23v14l-44 174h258q32 0 56 24t24 56v80q0 7-2 15t-4 15L794-168q-9 20-30 34t-44 14Zm-360-80h360l120-280v-80H480l54-220-174 174v406Zm0-406v406-406Zm-80-34v80H160v360h120v80H80v-520h200Z" />
+                    </svg></button>
+                  <p class="likes-value">10 mil</p>
+                </div>
+
+
+                <button class="action-btn comment-deslike"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                    viewBox="0 -960 960 960" width="24px" fill="#666666">
+                    <path
+                      d="M240-840h440v520L400-40l-50-50q-7-7-11.5-19t-4.5-23v-14l44-174H120q-32 0-56-24t-24-56v-80q0-7 2-15t4-15l120-282q9-20 30-34t44-14Zm360 80H240L120-480v80h360l-54 220 174-174v-406Zm0 406v-406 406Zm80 34v-80h120v-360H680v-80h200v520H680Z" />
+                  </svg></button>
+
+                <button class="reply">Responder</button>
+              </div>
+            </div>
+
+            <!-- TRÊS PONTOS -->
+            <div class="report">
+              <button><span class="material-symbols-outlined">
+                  more_vert
+                </span></button>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
       </div>
+
+
+
+
     </main>
 
   </div>
